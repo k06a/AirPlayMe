@@ -7,6 +7,7 @@ Resources
 =========
 
 1. Unofficial AirPlay Protocol Specification - http://nto.github.io/AirPlay.html
+2. Libavformat Documentation - https://www.ffmpeg.org/libavformat.html
 
 Discovering
 =========
