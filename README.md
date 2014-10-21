@@ -12,7 +12,12 @@ Resources
 Discovering
 =========
 
-This can discover all AppleTV's in local network:
+AppleTV supports RAOP (Remote Audio Output Protocol) and can be discovered:
 ```
 dns-sd -B _raop._tcp
+```
+
+AppleTV supports AirPlay protocol and can be discovered:
+```
+dns-sd -B _airplay._tcp
 ```
