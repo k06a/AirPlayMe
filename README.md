@@ -15,6 +15,8 @@ Discovering
 AppleTV supports RAOP (Remote Audio Output Protocol) and can be discovered:
 ```
 > dns-sd -B _raop._tcp
+```
+```
 Browsing for _raop._tcp
 DATE: ---Tue 21 Oct 2014---
 18:50:35.786  ...STARTING...
@@ -25,6 +27,8 @@ Timestamp     A/R    Flags  if Domain               Service Type         Instanc
 AppleTV supports AirPlay protocol and can be discovered:
 ```
 > dns-sd -B _airplay._tcp
+```
+```
 Browsing for _airplay._tcp
 DATE: ---Tue 21 Oct 2014---
 18:50:04.576  ...STARTING...
@@ -35,6 +39,8 @@ Timestamp     A/R    Flags  if Domain               Service Type         Instanc
 Getting information about device:
 ```
 > dns-sd -L "Apple TV (Гостиная)" _airplay._tcp
+```
+```
 Lookup Apple TV (Гостиная)._airplay._tcp.local
 DATE: ---Tue 21 Oct 2014---
 18:48:50.316  ...STARTING...
